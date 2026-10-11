@@ -1,0 +1,163 @@
+
+
+body {
+    background-color: #008080;
+    background-image: none;
+}
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Window box  */
+.window {
+    width: 620px;
+    background: #C0C0C0;
+    border: 3px solid;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    box-shadow: none;
+    font-family: "Microsoft Sans Serif", "Segoe UI", "Courier New", monospace;
+}
+
+/* Title bar  */
+.title-bar {
+    background: #000080;
+    color: #FFFFFF;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Microsoft Sans Serif", "Segoe UI", monospace;
+    letter-spacing: 0px;
+    border: none;
+}
+
+/* Content area */
+.content {
+    padding: 20px;
+    background: #C0C0C0;
+    margin: 0px;
+}
+
+/* Label styling */
+.content p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    font-family: "Microsoft Sans Serif", monospace;
+    margin-bottom: 8px;
+}
+
+/* Textarea - input box */
+.stTextArea textarea {
+    background: #FFFFFF !important;
+    border: 2px inset #808080 !important;
+    font-family: "Courier New", monospace !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    padding: 8px !important;
+}
+
+.stTextArea textarea:focus {
+    border: 2px inset #000080 !important;
+    outline: none !important;
+}
+
+/* Button*/
+button {
+    background: #C0C0C0 !important;
+    color: #000000 !important;
+    border: 2px solid !important;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF !important;
+    padding: 6px 16px !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    font-family: "Microsoft Sans Serif", monospace !important;
+    cursor: pointer !important;
+    width: auto !important;
+    margin-top: 12px !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+button:hover {
+    background: #D0D0D0 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+button:active {
+    border-color: #808080 #FFFFFF #FFFFFF #808080 !important;
+    transform: none !important;
+}
+
+/* Result box */
+.result {
+    margin-top: 16px;
+    padding: 12px;
+    border: 2px inset #808080;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    font-family: "Courier New", monospace;
+    background: #FFFFFF;
+}
+
+/* Spam result */
+.result[style*="#ff8080"] {
+    background: #FFCCCC !important;
+    color: #8B0000 !important;
+    border-left: 8px solid #FF0000 !important;
+    font-weight: bold;
+}
+
+/* Safe result */
+.result[style*="#80ff80"] {
+    background: #CCFFCC !important;
+    color: #006400 !important;
+    border-left: 8px solid #008000 !important;
+    font-weight: bold;
+}
+
+/* Warning message */
+.stAlert {
+    background: #FFFFCC !important;
+    border: 2px inset #808080 !important;
+    color: #8B0000 !important;
+    font-family: "Microsoft Sans Serif", monospace !important;
+    font-size: 12px !important;
+    padding: 8px !important;
+}
+
+/* Divider */
+hr {
+    border: 1px solid #808080;
+    margin: 16px 0;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    background: #C0C0C0;
+}
+
+::-webkit-scrollbar-track {
+    background: #C0C0C0;
+    border-left: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C0C0C0;
+    border: 1px solid;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb:active {
+    border-color: #808080 #FFFFFF #FFFFFF #808080;
+}
